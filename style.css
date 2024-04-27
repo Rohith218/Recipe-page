@@ -29,7 +29,7 @@ body {
 .container {
     background-color: var(--White);
     width: 50%;
-    padding: 2.5%;
+    padding: 3%;
     margin: 5% auto;
     border-radius: 20px;
     font-family: "Outfit";
@@ -37,7 +37,7 @@ body {
 
 .image {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ img {
 
 h1 {
     color: var(--DarkCharcoal);
-    margin: 2% 0;
+    margin: 3% 0;
     font-family: "Young Serif";
     font-size: 2.5rem;
     font-weight: 400;
@@ -60,7 +60,7 @@ p {
 }
 
 .prep {
-    padding: 2% 5%;
+    padding: 5% 5%;
     margin: 5% 0 3%;
     background-color: var(--RoseWhite);
     border-radius: 20px;
@@ -76,7 +76,11 @@ p {
 .prep ul {
     margin-left: 3%;
 }
-
+.prep ,
+.ingredients ,
+.instructions {
+    margin-bottom: 25px;
+}
 .prep ul li,
 .ingredients ul li,
 .instructions ol li {
@@ -100,6 +104,7 @@ span {
     font-family: "Young Serif";
     font-size: 1.5rem;
     font-weight: 400;
+    padding:  3% 0;
 }
 
 .ingredients ul,
