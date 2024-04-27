@@ -86,7 +86,10 @@ p {
 .instructions ol li {
     padding: 1% 0 0.5% 3%;
 }
-
+.ingredients ul li,
+.instructions ol li {
+    color: var(--WengeBrown);
+}
 .prep ul li::marker {
     font-weight: 700;
     color: purple;
